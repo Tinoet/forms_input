@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="process.php">
+  <div>
+    <label for="name">name</label> <br>
+    <input type="text" id="name">
+  </div>
+  <div>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter your mail.">
+  </div>
+  <div>
+    <label for="message">message</label><br>
+    <textarea name="messagge" id="message" cols="30" rows="10"></textarea>
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age">
+  </div>
+  <div>
+    <label for="birthdate">birthday</label>
+    <input type="date" name="birthdate" id="birthdate">
+  </div>
+  <div>
+    <label for="membership">Membership</label>
+    <input type="radio" name="membership" id="membership" value="simple">simple
+    <input type="radio" name="membership" id="super" checked>super
+    <input type="radio" name="membership" id="standard">standard
+  </div>
+  <div>
+    <label for="checkbox">I like..</label>
+    <input type="checkbox" name="checkbox" id="checkbox" value="boat" >boat
+    <input type="checkbox" name="checkbox" id="checkbox" value="bike"> bike
+    <input type="checkbox" name="checkbox" id="checkbox" value="car"> car
+  </div>
+<input type="submit" value="submit">
+<button type="reset">reset</button>
+</form>
+</body>
+</html>
